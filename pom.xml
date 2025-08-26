@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ru.bookapp</groupId>
+  <artifactId>aero-travel</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>Archetype - aero-travel</name>
+  <url>http://maven.apache.org</url>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>services/gateway-service</module>
+    <module>services/discovery-service</module>
+    <module>services/user-service</module>
+    <module>services/flight-service</module>
+    <module>services/booking-service</module>
+    <module>services/payment-service</module>
+    <module>services/notification-service</module>
+    <module>libs/internal-interface</module>
+  </modules>
+</project>
