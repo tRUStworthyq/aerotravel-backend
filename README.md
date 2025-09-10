@@ -29,13 +29,16 @@
 
 Проект будет использовать микросервисную архитектуру со следующими сервисами:
 
-*   **gateway-service** - API Gateway для маршрутизации запросов
-*   **discovery-service** - Service Discovery (Eureka Server)
-*   **flight-service** - Поиск и управление рейсами
-*   **booking-service** - Управление бронированием с использованием Saga Pattern
-*   **payment-service** - Обработка платежей (симуляция)
-*   **user-service** - Хранение, обработка и изменение информации о пользователе
-*   **notification-service** - Отправка уведомлений
+*   **gateway-service** - API Gateway для маршрутизации запросов [README](./services/gateway-service/README.md)
+*   **discovery-service** - Service Discovery (Eureka Server) [README](./services/discovery-service/README.md)
+*   **flight-service** - Поиск и управление рейсами [README](./services/flight-service/README.md)
+*   **booking-service** - Управление бронированием с использованием Saga Pattern [README](./services/booking-service/README.md)
+*   **payment-service** - Обработка платежей (симуляция) [README](./services/payment-service/README.md)
+*   **user-service** - Хранение, обработка и изменение информации о пользователе [README](./services/user-service/README.md)
+*   **notification-service** - Отправка уведомлений [README](./services/notification-service/README.md)
+
+**Общие модули:**
+*   **internal-interface** - Общий модуль с DTO, событиями Kafka для межсервисного взаимодействия ([README](./libs/internal-interface/README.md))
 
 ## Быстрый старт
 
@@ -62,7 +65,7 @@
 
 *   [] Настройка API Gateway
 *   [] Поднятие инфраструктуры: Kafka, PostgreSQL, Redis, Keycloak
-*   [] Разработка Search Service с интеграцией Amadeus API
+*   [] Разработка Flight Service с интеграцией Amadeus API
 *   [] Реализация кеширования результатов поиска 
 *   [] Настройка шаблона CI для микросервисов
 *   [] Создание документации API через Swagger/OpenAPI
