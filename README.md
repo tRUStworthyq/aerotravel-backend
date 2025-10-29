@@ -36,6 +36,7 @@
 *   **payment-service** - Обработка платежей (симуляция) [README](./services/payment-service/README.md)
 *   **user-service** - Хранение, обработка и изменение информации о пользователе [README](./services/user-service/README.md)
 *   **notification-service** - Отправка уведомлений [README](./services/notification-service/README.md)
+*   **idempotency-service** - Обеспечение идемпотентности для HTTP-запросов и Kafka сообщений [README](./services/idempotency-service/README.md)
 
 **Общие модули:**
 *   **internal-interface** - Общий модуль с DTO, событиями Kafka для межсервисного взаимодействия ([README](./libs/internal-interface/README.md))
