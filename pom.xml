@@ -16,6 +16,7 @@
     <module>services/booking-service</module>
     <module>services/payment-service</module>
     <module>services/notification-service</module>
+    <module>services/idempotency-service</module>
     <module>libs/internal-interface</module>
   </modules>
 </project>
